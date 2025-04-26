@@ -1,0 +1,2 @@
+1. The bug is that the two numbers are not the sums of integers, but rather the string and even then calculateSum function doesn't have ; which is most likely what's causing it to be undefined
+2. I would fix it by first converting num1 and num2 to integers by doing Number(num1) and Number(num2) then fix slight syntax errors and that would be all.
